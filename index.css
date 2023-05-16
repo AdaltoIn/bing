@@ -66,6 +66,13 @@ div > p{
     text-shadow: #3F89A6 1px 1px 1px;
 }
 
+footer{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        text-align: center;
+        font-size: 8pt;
+    }
+
 
 
 @media only screen and (max-width: 435px) {
