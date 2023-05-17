@@ -3,12 +3,35 @@
     margin: 0;
     box-sizing: border-box;
 }
+header{
+    display: flex;
+    background: rgb(238,238,174);
+    background: radial-gradient(circle, rgba(238,238,174,0.48503151260504207) 0%, rgba(148,233,163,0.2413340336134454) 100%);
+    padding: 20px 20px;
+    
+}
+
+header > h1{   
+    margin-left: 50px;
+    margin-top: 30px;
+}
+.logo{
+    margin-top: 20px;
+    margin-left: 10px;
+    height: 100px;
+    display: flex;
+    margin-right: 10px;
+}
+
+
 h1{
+    
     margin-top: 20px;
     text-align: center;
     text-shadow: rgb(142, 221, 13) 1px 0.5px 0.5px;
     font-family: 'Oswald', sans-serif;
-    font-size: 30pt;
+    font-size: 40pt;
+    color: blue;
 }
 .flex-container{
     display: inline;
@@ -67,12 +90,11 @@ div > p{
 }
 
 footer{
-        margin-top: 20px;
-        margin-bottom: 20px;
-        text-align: center;
-        font-size: 8pt;
-    }
-
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 8pt;
+}
 
 
 @media only screen and (max-width: 435px) {
